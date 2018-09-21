@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Property at {{ address }} has left Stormwater Connect
+        </title>
+    </head>
+    <body>
+        <p>
+            Hi {{ name }}!
+        </p>
+        <p>
+            We're writing to let you know that {{ property_manager }} no longer wants to be
+            contacted about stormwater retrofit projects for the property located at {{ address }}.
+        </p>
+        <p>
+            However, you can still see your other interested properties by visiting
+        </p>
+        <p>
+            <a href="{{ retrofit_map_url }}">
+                {{ retrofit_map_url }}
+            </a>
+        </p>
+        <p>
+            Have a great day!
+        </p>
+        <p>
+            Sincerely,<br />
+            Stormwater Connect
+        </p>
+    </body>
+</html>

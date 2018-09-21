@@ -1,0 +1,9 @@
+{% block content %}
+Hi {{ name }}!
+
+You're receiving this message because you signed you up for the Philadelphia Water Department Retrofit Vendor Program.
+
+To confirm this is correct, go to {{ activate_url }}
+Thanks,
+Stormwater Connect
+{% endblock content %}

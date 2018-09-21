@@ -1,0 +1,13 @@
+{% block content %}
+Hi {{ name }}!
+
+We got a request to resend a link to edit your Stormwater Connect preferences. If this was
+you, here's the link:
+
+{{ preferences_url }}
+
+If you didn't request this, just ignore this email!
+
+Yours truly,
+Stormwater Connect
+{% endblock content %}

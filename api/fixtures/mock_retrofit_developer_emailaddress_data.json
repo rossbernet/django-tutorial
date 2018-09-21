@@ -1,0 +1,62 @@
+[
+    {
+        "model": "account.emailaddress",
+        "pk": 2,
+        "fields": {
+            "email": "2@gmail.com",
+            "verified": true,
+            "primary": true,
+            "user_id": 2
+        }
+    },
+    {
+        "model": "account.emailaddress",
+        "pk": 3,
+        "fields": {
+            "email": "3@gmail.com",
+            "verified": true,
+            "primary": true,
+            "user_id": 3
+        }
+    },
+    {
+        "model": "account.emailaddress",
+        "pk": 4,
+        "fields": {
+            "email": "4@gmail.com",
+            "verified": true,
+            "primary": true,
+            "user_id": 4
+        }
+    },
+    {
+        "model": "account.emailaddress",
+        "pk": 5,
+        "fields": {
+            "email": "5@gmail.com",
+            "verified": false,
+            "primary": true,
+            "user_id": 5
+        }
+    },
+    {
+        "model": "account.emailaddress",
+        "pk": 6,
+        "fields": {
+            "email": "6@gmail.com",
+            "verified": true,
+            "primary": true,
+            "user_id": 6
+        }
+    },
+    {
+        "model": "account.emailaddress",
+        "pk": 7,
+        "fields": {
+            "email": "7@gmail.com",
+            "verified": true,
+            "primary": true,
+            "user_id": 7
+        }
+    }
+]

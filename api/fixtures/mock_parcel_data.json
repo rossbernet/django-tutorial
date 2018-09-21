@@ -1,0 +1,222 @@
+[
+    {
+        "model": "api.parcel",
+        "pk": 21,
+        "fields": {
+            "created_at": "2018-01-18T17:22:53.206Z",
+            "updated_at": "2018-01-18T17:22:53.206Z",
+            "parcel_id": 513517,
+            "property_manager": 12,
+            "address": "990 SPRING GARDEN ST",
+            "building_type": "NonRes",
+            "selected_developers": "[\"7\", \"6\"]",
+            "rain_garden": true,
+            "subsurface_storage": false,
+            "green_roof": false,
+            "permeable_pavement": false,
+            "cistern": true,
+            "note": "Hello developers!",
+            "accepts_contacts": true
+        }
+    },
+    {
+        "model": "api.parcel",
+        "pk": 22,
+        "fields": {
+            "created_at": "2018-01-18T17:23:29.845Z",
+            "updated_at": "2018-01-18T17:23:29.845Z",
+            "parcel_id": 542611,
+            "property_manager": 12,
+            "address": "1234 MARKET ST",
+            "building_type": "Condo",
+            "selected_developers": "[\"4\"]",
+            "rain_garden": true,
+            "subsurface_storage": false,
+            "green_roof": false,
+            "permeable_pavement": false,
+            "cistern": true,
+            "note": "Hello different developers!",
+            "accepts_contacts": false
+        }
+    },
+    {
+        "model": "api.parcel",
+        "pk": 23,
+        "fields": {
+            "created_at": "2018-01-18T17:25:02.903Z",
+            "updated_at": "2018-01-18T17:25:02.903Z",
+            "parcel_id": 144225,
+            "property_manager": 12,
+            "address": "1004-26 SPRING GARDEN ST",
+            "building_type": "NonRes",
+            "selected_developers": "[\"2\"]",
+            "rain_garden": false,
+            "subsurface_storage": false,
+            "green_roof": true,
+            "permeable_pavement": true,
+            "cistern": false,
+            "note": "Hi rain garden developers!",
+            "accepts_contacts": true
+        }
+    },
+    {
+        "model": "api.parcel",
+        "pk": 24,
+        "fields": {
+            "created_at": "2018-01-18T17:25:56.394Z",
+            "updated_at": "2018-01-18T17:25:56.394Z",
+            "parcel_id": 272948,
+            "property_manager": 13,
+            "address": "2200-02 MARKET ST",
+            "building_type": "NonRes",
+            "selected_developers": "[\"5\", \"6\"]",
+            "rain_garden": false,
+            "subsurface_storage": true,
+            "green_roof": false,
+            "permeable_pavement": false,
+            "cistern": true,
+            "note": "Hi from 2200 market!",
+            "accepts_contacts": true
+        }
+    },
+    {
+        "model": "api.parcel",
+        "pk": 25,
+        "fields": {
+            "created_at": "2018-01-18T17:26:21.410Z",
+            "updated_at": "2018-01-18T17:26:21.410Z",
+            "parcel_id": 82865,
+            "property_manager": 13,
+            "address": "2100 MARKET ST",
+            "building_type": "NonRes",
+            "selected_developers": "[\"7\"]",
+            "rain_garden": false,
+            "subsurface_storage": true,
+            "green_roof": false,
+            "permeable_pavement": false,
+            "cistern": true,
+            "note": "Hi from 2100 market!",
+            "accepts_contacts": false
+        }
+    },
+    {
+        "model": "api.parcel",
+        "pk": 26,
+        "fields": {
+            "created_at": "2018-01-18T17:26:48.610Z",
+            "updated_at": "2018-01-18T17:26:48.611Z",
+            "parcel_id": 111155,
+            "property_manager": 13,
+            "address": "2000-24 MARKET ST",
+            "building_type": "Condo",
+            "selected_developers": "[\"6\"]",
+            "rain_garden": false,
+            "subsurface_storage": true,
+            "green_roof": false,
+            "permeable_pavement": false,
+            "cistern": true,
+            "note": "Hi from 2000 market!",
+            "accepts_contacts": true
+        }
+    },
+    {
+        "model": "api.parcel",
+        "pk": 27,
+        "fields": {
+            "created_at": "2018-01-18T17:28:01.652Z",
+            "updated_at": "2018-01-18T17:28:01.652Z",
+            "parcel_id": 82023,
+            "property_manager": 14,
+            "address": "1301-07 RIDGE AVE",
+            "building_type": "NonRes",
+            "selected_developers": "[\"4\", \"2\"]",
+            "rain_garden": false,
+            "subsurface_storage": false,
+            "green_roof": true,
+            "permeable_pavement": false,
+            "cistern": false,
+            "note": "Here are some parcels on Ridge Avenue",
+            "accepts_contacts": false
+        }
+    },
+    {
+        "model": "api.parcel",
+        "pk": 28,
+        "fields": {
+            "created_at": "2018-01-18T17:28:01.654Z",
+            "updated_at": "2018-01-18T17:28:01.654Z",
+            "parcel_id": 180291,
+            "property_manager": 14,
+            "address": "1309 RIDGE AVE",
+            "building_type": "NonRes",
+            "selected_developers": "[\"4\", \"2\"]",
+            "rain_garden": false,
+            "subsurface_storage": false,
+            "green_roof": true,
+            "permeable_pavement": false,
+            "cistern": false,
+            "note": "Here are some parcels on Ridge Avenue",
+            "accepts_contacts": true
+        }
+    },
+    {
+        "model": "api.parcel",
+        "pk": 29,
+        "fields": {
+            "created_at": "2018-01-18T17:28:01.655Z",
+            "updated_at": "2018-01-18T17:28:01.655Z",
+            "parcel_id": 325595,
+            "property_manager": 14,
+            "address": "1311-13 RIDGE AVE",
+            "building_type": "Condo",
+            "selected_developers": "[\"4\", \"2\"]",
+            "rain_garden": false,
+            "subsurface_storage": false,
+            "green_roof": true,
+            "permeable_pavement": false,
+            "cistern": false,
+            "note": "Here are some parcels on Ridge Avenue",
+            "accepts_contacts": false
+        }
+    },
+    {
+        "model": "api.parcel",
+        "pk": 30,
+        "fields": {
+            "created_at": "2018-01-18T17:28:01.656Z",
+            "updated_at": "2018-01-18T17:28:01.656Z",
+            "parcel_id": 41138,
+            "property_manager": 14,
+            "address": "1315 RIDGE AVE",
+            "building_type": "NonRes",
+            "selected_developers": "[\"4\", \"2\"]",
+            "rain_garden": false,
+            "subsurface_storage": false,
+            "green_roof": true,
+            "permeable_pavement": false,
+            "cistern": false,
+            "note": "Here are some parcels on Ridge Avenue",
+            "accepts_contacts": true
+        }
+    },
+    {
+        "model": "api.parcel",
+        "pk": 31,
+        "fields": {
+            "created_at": "2018-01-18T17:29:26.788Z",
+            "updated_at": "2018-01-18T17:29:26.788Z",
+            "parcel_id": 398817,
+            "property_manager": 15,
+            "address": "1 CITIZENS BANK WAY",
+            "building_type": "NonRes",
+            "selected_developers": "[\"5\"]",
+            "rain_garden": false,
+            "subsurface_storage": true,
+            "green_roof": false,
+            "permeable_pavement": false,
+            "cistern": true,
+            "note": "Go Phillies!",
+            "accepts_contacts": true
+        }
+    }
+]

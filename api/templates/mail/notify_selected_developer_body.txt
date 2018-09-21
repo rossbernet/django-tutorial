@@ -1,0 +1,24 @@
+{% block content %}
+Hi {{ name }}!
+
+A customer is interested in your company!
+
+They expressed interest in the following stormwater retrofit projects:
+
+{{ retrofits }}
+
+{% if note %}
+They also wanted us to send you the following note:
+
+> {{ note }}
+{% endif %}
+
+If you'd like to see some details about this property, check out this link:
+
+{{ parcel_url }}
+
+Have a great day!
+
+Sincerely,
+Stormwater Connect
+{% endblock content %}

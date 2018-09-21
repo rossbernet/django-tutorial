@@ -1,0 +1,58 @@
+[
+    {
+        "model": "api.propertymanager",
+        "pk": 12,
+        "fields": {
+            "created_at": "2018-01-18T17:22:53.203Z",
+            "updated_at": "2018-01-18T17:25:02.907Z",
+            "name": "Kelly",
+            "email": "kinnes+testing@azavea.com",
+            "phone": "12345",
+            "prefer_email": true,
+            "prefer_phone": true,
+            "unsubscribe_token": "92d083bf-140a-4665-96d8-e6da48bc7cc1"
+        }
+    },
+    {
+        "model": "api.propertymanager",
+        "pk": 13,
+        "fields": {
+            "created_at": "2018-01-18T17:25:56.392Z",
+            "updated_at": "2018-01-18T17:26:48.616Z",
+            "name": "2200 Market",
+            "email": "2200market@example.com",
+            "phone": "7654321",
+            "prefer_email": true,
+            "prefer_phone": false,
+            "unsubscribe_token": "121aa49b-9a09-4186-910e-dbb73c7695e9"
+        }
+    },
+    {
+        "model": "api.propertymanager",
+        "pk": 14,
+        "fields": {
+            "created_at": "2018-01-18T17:28:01.650Z",
+            "updated_at": "2018-01-18T17:28:01.650Z",
+            "name": "Kelly Ridge Avenue",
+            "email": "kelly+ridgeavenue@azavea.com",
+            "phone": "7654321",
+            "prefer_email": true,
+            "prefer_phone": true,
+            "unsubscribe_token": "0351fd4c-8071-40f7-b9c1-c61c0ee3a6ae"
+        }
+    },
+    {
+        "model": "api.propertymanager",
+        "pk": 15,
+        "fields": {
+            "created_at": "2018-01-18T17:29:26.786Z",
+            "updated_at": "2018-01-18T17:29:26.786Z",
+            "name": "Baseball Stadium",
+            "email": "kinnes+baseballstadium@azavea.com",
+            "phone": "12345",
+            "prefer_email": true,
+            "prefer_phone": false,
+            "unsubscribe_token": "a9fb20d3-d4f1-474d-9186-4c82b7876bf8"
+        }
+    }
+]

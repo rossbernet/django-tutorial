@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            A customer is interested in your company!
+        </title>
+    </head>
+    <body>
+        <p>
+            Hi {{ name }}!
+        </p>
+        <p>
+            A customer is interested in your company!
+        </p>
+        <p>
+            They expressed interest in the following stormwater retrofit projects:
+        </p>
+        <p>
+            {{ retrofits }}
+        </p>
+        {% if note %}
+        <div>
+            <p>
+                They also wanted us to send you the following note:
+            </p>
+            <blockquote>
+                {{ note }}
+            </blockquote>
+        </div>
+        {% endif %}
+        <p>
+            If you'd like to see some details about this property, check out this link:
+        </p>
+        <p>
+            <a href="{{ parcel_url }}">
+                {{ parcel_url }}
+            </a>
+        </p>
+        <p>
+            Have a great day!
+        </p>
+        <p>
+            Sincerely,
+            Stormwater Connect
+        </p>
+    </body>
+</html>

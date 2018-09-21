@@ -1,0 +1,15 @@
+{% block content %}
+Hi {{ name }}!
+
+We're writing to let you know that {{ property_manager }} no longer wants to be
+contacted about stormwater retrofit projects for the property located at {{ address }}.
+
+However, you can still see your other interested properties by visiting
+
+{{ retrofit_map_url }}
+
+Have a great day!
+
+Sincerely,
+Stormwater Connect
+{% endblock content %}

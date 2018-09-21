@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Stormwater Connect signup confirmation!
+        </title>
+    </head>
+    <body>
+        <p>
+            Hi {{ name }}!
+        </p>
+        <p>
+            This email is automatically sent to confirm you signed some properties up for Stormwater Connect!
+        </p>
+        <div>
+            <p>
+                Here is the information you used to sign up:
+            </p>
+            <ul>
+                <li>
+                    Name: {{ name }}
+                </li>
+                <li>
+                    Email: {{ email }}
+                </li>
+                <li>
+                    Phone: {{ phone }}
+                </li>
+                <li>
+                    Note to Vendors: {{ note }}
+                </li>
+                <li>
+                    Preferred Contact: {{ preferred_contact }}
+                </li>
+                <li>
+                    Parcels: {{ parcels }}
+                </li>
+                <li>
+                    Selected Retrofit Projects: {{ selected_retrofits }}
+                </li>
+            </ul>
+        </div>
+        {% if selected_developers|length > 0 %}
+        <div>
+            <p>
+                You expressed interest in the following retrofit vendors:
+            </p>
+            <div>
+                {% for developer in selected_developers %}
+                <ul>
+                    <li>
+                        Name: {{ developer.company_name }}
+                    </li>
+                    <li>
+                        Phone: {{ developer.company_phone }}
+                    </li>
+                    <li>
+                        Email: {{ developer.company_email }}
+                    </li>
+                    <li>
+                        Website: {{ developer.company_website }}
+                    </li>
+                    <li>
+                        Address: {{ developer.company_address }}
+                    </li>
+                    <li>
+                        Specialties: {{ developer.specialties }}
+                    </li>
+                </ul>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+        <p>
+            To update your parcel preferences, check out this link:
+        </p>
+        <p>
+            <a href="{{ unsubscribe_url }}">
+                {{ unsubscribe_url }}
+            </a>
+        </p>
+        <p>
+            Have a great day!
+        </p>
+        <p>
+            Sincerely,<br />
+            Stormwater Connect
+        </p>
+    </body>
+</html>
